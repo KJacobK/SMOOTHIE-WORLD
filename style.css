@@ -1,0 +1,386 @@
+@media (min-device-width: 1000px) {
+#body_index {
+    margin: 0;  
+    background-color: white;
+    width: 100%;
+
+}
+#body_aboutus {
+    margin: 0;  
+    background-image: url('background.png');
+    background-size: cover;
+    width: 100%;
+
+}
+#body_location {
+    margin: 0;  
+    background-color: #dae782;
+    background-size: cover;
+    width: 100%;
+}
+header {
+    
+    background-color: #dae782;
+    padding: 10px;
+    float: left;
+    width: 99.4%;
+    height: 50%;
+    text-align: center;
+    border-bottom: solid 2px black;
+    padding-bottom: 0;
+    padding-right: 0;
+    
+    
+}
+.menu{
+    float: right;
+    font-family: 'Righteus';
+    padding: 0 1% 0 1%;
+    font-size: 1.5rem;
+    width: 25%;
+    letter-spacing: 3px;
+    margin-bottom: 0.7%;
+   
+}
+#background{
+   
+    
+    float: left;
+    padding: 9%;
+    padding-right:0 ;
+    width: 89%;
+    
+    
+}
+
+.aboutus{
+    font-family: 'Righteous', cursive;
+    line-height: 200%;
+    float: left;
+    font-size: 100%;
+    
+    
+}
+
+.aboutus_mobile{
+    display: none;
+    
+    
+}
+#geo{
+    width: 40%;
+    float: left;
+    margin-bottom: 5%;
+    box-shadow: 8px 8px 24px 0px rgba(162, 179, 51, 1);
+    margin-top: 5%;
+    height: 60vh;
+    border-radius: 2%;
+}
+#localisation{
+   background-color: white;
+    border: 1px solid black;
+   width: 30%;
+   float: right;
+   font-size: 0.9rem;
+   text-align: center;
+   margin-top: 5%;
+    right: 5%;
+    margin-bottom: 5%;
+    height: 60vh;
+    
+
+}
+h1{
+    font-family: 'Righteous', cursive;
+}
+
+#content_localisation{
+   
+    width: 100%;
+    float: right;
+    padding: 2% 10% 0% 10%;
+    
+    
+}
+
+
+#banner
+{
+    background-color: #c07672;
+    width: 80%;
+    font-size: 3rem;
+    font-family: 'Righteous', cursive;
+    vertical-align: middle;
+    text-align: center;
+    letter-spacing: 5px;
+    padding: 1.5%;
+    border-left: solid 1px black;
+    float: right;
+    
+    
+}
+#banner_mobile{
+    display: none;
+}
+#logo{
+    float: left;
+    width: 10%;
+    margin-left: 2%;
+    margin-bottom: -5%;
+    
+}
+
+.smoothie{
+    width: 33%;
+    text-align: center;
+    margin: 5%;
+    float: left;
+    margin-right: 1%;
+    margin-bottom: 5%;
+    
+    
+    
+    
+}
+
+.smoothieimg{
+
+    height: 20vw;
+    border: solid 2px black;
+    
+}
+.name{
+    color: white;
+    background-color: #121111;
+    font-family: 'Righteous', cursive;
+    padding: 1%;
+    font-size: 150%;
+    clear: both;
+    
+    
+    
+}
+main{
+    padding-left: 15%;
+}
+
+@media only screen and (max-width: 800px) {
+    
+    #banner {
+        font-size: 0.7rem;
+    }
+    .menu{
+        font-size: 0.7rem;
+    }
+    #localisation{
+        font-size:0.7rem;
+     }
+  }
+  
+  @media only screen and (max-width: 530px) {
+    p {
+        font-size: 0.3rem;
+    }
+    #localisation{
+        font-size:0.3rem;
+     }
+    
+  }
+  a:hover{
+    color: #32612d;
+  }
+  a{
+    text-decoration: none;
+    color: black;
+  }
+ 
+
+  
+  
+}
+  
+  @media (max-device-width: 1000px) 
+{
+    
+#body_index,#body_location {
+    margin: 0;  
+    background-color: #808080;
+    width: 100%;
+    
+    
+
+}
+#body_index{
+    background-color: white;
+}
+#body_aboutus {
+    margin: 0;  
+    background-image: url('background_mobile.png');
+    background-size: cover;
+    width: 100%;
+    
+    
+
+}
+header {
+    
+    background-color: white;
+    padding: 0;
+    float: left;
+    width: 100%;
+    height: 50%;
+    text-align: center;
+    border-bottom: solid 2px black;
+    padding-bottom: 0;
+    padding-right: 0;
+    
+    
+}
+#geo{
+    width: 70%;
+    float: left;
+    margin-left: 15%;
+    margin-top: 10%;
+    
+    
+}
+#localisation{
+   background-color: white;
+    border: 1px solid black;
+   width: 50%;
+   
+   font-size: 1vh;
+   text-align: center;
+   float: left;
+margin-left: 25%;
+margin-top: 10%;
+
+}
+h1{
+    font-family: 'Righteous', cursive;
+}
+#background_localisation{
+    padding-top: 13%;
+    padding-right: 10%;
+    
+}
+.menu{
+    
+    font-family: 'Righteus';
+    
+    font-size: 1rem;
+    width: 30.3%;
+    letter-spacing: 2px;
+    
+    background-color: #a2b333;
+    float: left;
+    padding: 1.5%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    
+}
+#banner
+{
+    
+    width: 100%;
+    font-size: 1.5rem;
+    font-family: 'Righteous', cursive;
+    vertical-align: middle;
+    text-align: center;
+    letter-spacing: 5px;
+    padding: 1.5%;
+    border-left: solid 1px black;
+    display: none;
+    
+    
+}
+#banner_mobile
+{
+
+    width: 97%;
+    font-size: 1.3rem;
+    font-family: 'Righteous', cursive;
+    vertical-align: middle;
+    text-align: center;
+    letter-spacing: 5px;
+    padding: 1.5%;
+    height: 15%;
+    
+    
+    
+}
+#body_location {
+    margin: 0;  
+    background-color: #dae782;
+    background-size: cover;
+    width: 100%;
+}
+#map{
+    
+    font-family: 'Nanum Gothic Coding', monospace;
+}
+#locationn{
+    font-family: 'Nanum Gothic Coding', monospace;
+    float: right;
+    margin-right: 2%;
+}
+
+#logo{
+    
+    width: 30%;
+    margin-left: 35%;
+   
+    
+}
+
+.smoothie{
+    width: 40%;
+    text-align: center;
+    margin: 5%;
+    float: left;
+    margin-right: 1%;
+    margin-bottom: 7%;
+    
+    
+    
+    
+    
+}
+.smoothieimg{
+
+    height: 6rem;
+    border: solid 2px black;
+   
+    
+}
+.name{
+    color: white;
+    background-color: #121111;
+    font-family: 'Righteous', cursive;
+    padding: 1%;
+    font-size: 0.8rem;
+    clear: both;
+    margin-bottom: 7%;
+    
+}
+main{
+    padding-left: 5%;
+    
+}
+a{
+    color: black;
+}
+.aboutus{
+    display: none;
+}
+.aboutus_mobile{
+    font-family: 'Righteous', cursive;
+    font-size: 100%;
+    float: left;
+    margin-bottom: 20%;
+    
+    
+}
+
+}
+
